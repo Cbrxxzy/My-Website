@@ -69,9 +69,7 @@ h2 {
 }
 
 .main-header {
-  align-items: center;
   height: 50px;
   width: 70vw;
   color: rgb(248, 242, 242);
-  z-index: 1;
   font-size: 20px;
