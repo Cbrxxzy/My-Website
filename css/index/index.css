@@ -69,8 +69,6 @@ h2 {
 }
 
 .main-header {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 50px;
   width: 70vw;
