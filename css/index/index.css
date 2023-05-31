@@ -19,6 +19,7 @@ h1 {
     text-shadow: 2px 2px 5px blue;
 }
 b {
+	font-size: 60px;
   text-decoration-line: underline;
   text-decoration-color: blue;  
   text-decoration-style: wavy;  
