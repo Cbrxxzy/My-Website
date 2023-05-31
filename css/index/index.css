@@ -1,69 +1,69 @@
 @font-face {
-    font-family: Aclonica;
-    src: url(Aclonica);
-  }
-  
-  body {
-    color:blue;
-  }
-  
-  p {
-    text-indent: 5% 
-      
-  }
-  p.double {
-    border-style: soild;
-    border-color: darkblue;
-  }
-  h1 {
-      text-shadow: 2px 2px 5px blue;
-  }
-  b {
-    text-decoration-line: underline;
-    text-decoration-color: blue;  
-    text-decoration-style: wavy;  
-  }
-  .grid-item {
-    background-color: rgba(58, 125, 250, 0.8);
-    border: 1px solid darkblue;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  @keyframes myAnim {
-      0%,
-      100% {
-          transform: translateX(0);
-      }
-  
-      10%,
-      30%,
-      50%,
-      70% {
-          transform: translateX(-10px);
-      }
-  
-      20%,
-      40%,
-      60% {
-          transform: translateX(10px);
-      }
-  
-      80% {
-          transform: translateX(8px);
-      }
-  
-      90% {
-          transform: translateX(-8px);
-      }
-   
-  }
-  
-  h2 {
-    animation: myAnim 2s ease 0s infinite normal forwards;
-    text-decoration-line: underline;
-    text-decoration-color: blue;  
-    text-decoration-style: wavy;
+  font-family: Aclonica;
+  src: url(Aclonica);
+}
+
+body {
+  color:blue;
+}
+
+p {
+  text-indent: 5% 
+    
+}
+p.double {
+  border-style: soild;
+  border-color: darkblue;
+}
+h1 {
     text-shadow: 2px 2px 5px blue;
-  }
+}
+b {
+  text-decoration-line: underline;
+  text-decoration-color: blue;  
+  text-decoration-style: wavy;  
+}
+.grid-item {
+  background-color: rgba(58, 125, 250, 0.8);
+  border: 1px solid darkblue;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+ 
+}
+
+h2 {
+  animation: myAnim 2s ease 0s infinite normal forwards;
+  text-decoration-line: underline;
+  text-decoration-color: blue;  
+  text-decoration-style: wavy;
+  text-shadow: 2px 2px 5px blue;
+}
